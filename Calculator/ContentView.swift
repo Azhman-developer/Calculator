@@ -33,22 +33,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView(theme: .constant(Color.theme.green))
     }
 }
-
-
-
-
-
-
-
-//struct DarkNemorphicButtonStyle: ButtonStyle{
-//    func makeBody(configuration: Configuration) -> some View {
-//        configuration.label
-//            .padding(30)
-//            .background(
-//
-//                DarkBackground(isHighlited: configuration.isPressed, shape: RoundedRectangle(cornerRadius: 15))
-//            )
-//
-//
-//    }
-//}

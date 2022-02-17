@@ -51,7 +51,13 @@ enum StyleGuide{
             static let dark   = Color("displayText3")
         }
         enum DarkShadow{
+            static let red    = Color("darkShadow1")
+            static let light  = Color("darkShadow2")
+            static let dark   = Color("darkShadow3")
+            static let pink   = Color("darkShadow4")
+            static let purple = Color("darkShadow5")
             static let green  = Color("darkShadow6")
+            static let blue   = Color("darkShadow7")
         }
     }
     
