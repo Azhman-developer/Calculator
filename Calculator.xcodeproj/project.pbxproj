@@ -12,6 +12,8 @@
 		280123CF27BEA859007A8BEC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280123CE27BEA859007A8BEC /* Theme.swift */; };
 		280123D127BEA9D8007A8BEC /* LinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280123D027BEA9D8007A8BEC /* LinearGradient.swift */; };
 		280123D427BEB710007A8BEC /* NeomorphicBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280123D327BEB710007A8BEC /* NeomorphicBackground.swift */; };
+		28E1B71427C1531E00EDF9D4 /* OperandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E1B71327C1531E00EDF9D4 /* OperandButton.swift */; };
+		28E1B71627C159F800EDF9D4 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E1B71527C159F800EDF9D4 /* AppColors.swift */; };
 		28F5608127BD52E8005824EC /* CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F5608027BD52E8005824EC /* CalculatorApp.swift */; };
 		28F5608327BD52E8005824EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F5608227BD52E8005824EC /* ContentView.swift */; };
 		28F5608527BD52EA005824EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F5608427BD52EA005824EC /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 		280123CE27BEA859007A8BEC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		280123D027BEA9D8007A8BEC /* LinearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient.swift; sourceTree = "<group>"; };
 		280123D327BEB710007A8BEC /* NeomorphicBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeomorphicBackground.swift; sourceTree = "<group>"; };
+		28E1B71327C1531E00EDF9D4 /* OperandButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperandButton.swift; sourceTree = "<group>"; };
+		28E1B71527C159F800EDF9D4 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		28F5607D27BD52E8005824EC /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F5608027BD52E8005824EC /* CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorApp.swift; sourceTree = "<group>"; };
 		28F5608227BD52E8005824EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,8 +62,17 @@
 			isa = PBXGroup;
 			children = (
 				280123D327BEB710007A8BEC /* NeomorphicBackground.swift */,
+				28E1B71327C1531E00EDF9D4 /* OperandButton.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		28E1B71727C1616B00EDF9D4 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				28E1B71527C159F800EDF9D4 /* AppColors.swift */,
+			);
+			path = Structs;
 			sourceTree = "<group>";
 		};
 		28F5607427BD52E8005824EC = {
@@ -103,6 +116,7 @@
 		28F5608E27BD52FA005824EC /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				28E1B71727C1616B00EDF9D4 /* Structs */,
 				280123CB27BEA68A007A8BEC /* Styles */,
 				28F5609427BD5C12005824EC /* Extension */,
 				28F5609327BD5C0E005824EC /* Enum */,
@@ -121,8 +135,8 @@
 		28F5609027BD5306005824EC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				280123D227BEB6E6007A8BEC /* Components */,
 				28F5608027BD52E8005824EC /* CalculatorApp.swift */,
+				280123D227BEB6E6007A8BEC /* Components */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -230,6 +244,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28E1B71427C1531E00EDF9D4 /* OperandButton.swift in Sources */,
+				28E1B71627C159F800EDF9D4 /* AppColors.swift in Sources */,
 				280123D127BEA9D8007A8BEC /* LinearGradient.swift in Sources */,
 				28F5608327BD52E8005824EC /* ContentView.swift in Sources */,
 				28F5609827BD692B005824EC /* Color.swift in Sources */,

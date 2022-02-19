@@ -10,10 +10,10 @@ import SwiftUI
 
 enum Theme{
     static var red:    NeomorphicTheme{
-        let color = Color.primary.red
+        let color = Color.primary.red.rawValue.color
         
         let untappedShadow = NeomorphicShadow(
-            color: Color.darkShadoW.red.opacity(0.4),
+            color: Color.darkShadoW.red.rawValue.color.opacity(0.4),
             radius: 1,
             x: 5,
             y: 5)
@@ -34,10 +34,10 @@ enum Theme{
                                tappedLightColor: tappedLightColor)
     }
     static var light:  NeomorphicTheme{
-        let color = Color.primary.light
+        let color = Color.primary.light.rawValue.color
         
         let untappedShadow = NeomorphicShadow(
-            color: Color.darkShadoW.light.opacity(0.2),
+            color: Color.darkShadoW.light.rawValue.color.opacity(0.2),
             radius: 1,
             x: 5,
             y: 5)
@@ -58,10 +58,10 @@ enum Theme{
                                tappedLightColor: tappedLightColor)
     }
     static var dark:   NeomorphicTheme{
-        let color = Color.primary.dark
+        let color = Color.primary.dark.rawValue.color
         
         let untappedShadow = NeomorphicShadow(
-            color: Color.darkShadoW.dark.opacity(0.2),
+            color: Color.darkShadoW.dark.rawValue.color.opacity(0.2),
             radius: 1,
             x: 5,
             y: 5)
@@ -82,10 +82,10 @@ enum Theme{
                                tappedLightColor: tappedLightColor)
     }
     static var pink:   NeomorphicTheme{
-        let color = Color.primary.pink
+        let color = Color.primary.pink.rawValue.color
         
         let untappedShadow = NeomorphicShadow(
-            color: Color.darkShadoW.pink.opacity(0.2),
+            color: Color.darkShadoW.pink.rawValue.color.opacity(0.2),
             radius: 1,
             x: 5,
             y: 5)
@@ -106,10 +106,10 @@ enum Theme{
                                tappedLightColor: tappedLightColor)
     }
     static var purple: NeomorphicTheme{
-        let color = Color.primary.purple
+        let color = Color.primary.purple.rawValue.color
         
         let untappedShadow = NeomorphicShadow(
-            color: Color.darkShadoW.purple.opacity(0.2),
+            color: Color.darkShadoW.purple.rawValue.color.opacity(0.2),
             radius: 1,
             x: 5,
             y: 5)
@@ -130,10 +130,10 @@ enum Theme{
                                tappedLightColor: tappedLightColor)
     }
     static var green:  NeomorphicTheme{
-        let color = Color.primary.green
+        let color = Color.primary.green.rawValue.color
         
         let untappedShadow = NeomorphicShadow(
-            color: Color.darkShadoW.green.opacity(0.4),
+            color: Color.darkShadoW.green.rawValue.color.opacity(0.4),
             radius: 1,
             x: 5,
             y: 5)
@@ -154,10 +154,10 @@ enum Theme{
                                tappedLightColor: tappedLightColor)
     }
     static var blue:   NeomorphicTheme{
-        let color = Color.primary.blue
+        let color = Color.primary.blue.rawValue.color
         
         let untappedShadow = NeomorphicShadow(
-            color: Color.darkShadoW.blue.opacity(0.2),
+            color: Color.darkShadoW.blue.rawValue.color.opacity(0.2),
             radius: 1,
             x: 5,
             y: 5)
@@ -177,5 +177,4 @@ enum Theme{
                                tappedShadowColor: tappedShadowColor,
                                tappedLightColor: tappedLightColor)
     }
-    
 }

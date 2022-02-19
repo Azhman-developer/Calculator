@@ -21,6 +21,20 @@ struct NeomorphicTheme{
     ///Tapped State for buttons
     let tappedShadowColor: Color
     let tappedLightColor:  Color
+    
+    ///Secondry Color
+   // let secondy: Color
+    
+    ///Primary Text Color
+    //let primaryText: Color
+    
+    ///Secondary Text Color
+    //let secondaryText: Color
+    
+    ///DisplayText Color
+    
+    
+    
 }
 
 struct NeomorphicShadow{
