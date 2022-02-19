@@ -12,7 +12,7 @@ import SwiftUI
  */
 struct NeomorphicTheme{
     ///Universal Color
-    let color: Color
+    let primaryColor: Color
     
     ///Untapped State for buttons
     let untappedShadow:  NeomorphicShadow
@@ -23,16 +23,16 @@ struct NeomorphicTheme{
     let tappedLightColor:  Color
     
     ///Secondry Color
-   // let secondy: Color
+    let secondyColor: Color
     
     ///Primary Text Color
-    //let primaryText: Color
+    let primaryTextColor: Color
     
     ///Secondary Text Color
-    //let secondaryText: Color
+    let secondaryTextColor: Color
     
     ///DisplayText Color
-    
+    let displayTextColor: Color
     
     
 }

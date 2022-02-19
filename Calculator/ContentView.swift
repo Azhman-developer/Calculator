@@ -15,7 +15,7 @@ struct ContentView: View {
     var body: some View {
         ZStack{
             
-            theme.color.ignoresSafeArea()
+            theme.primaryColor.ignoresSafeArea()
             
             Button(action:{
                 print("Button is pressed")

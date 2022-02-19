@@ -18,12 +18,12 @@ struct NeomorphicBackground<T: Shape>: View {
         ZStack{
             if isTapped{
                 shape
-                    .fill(theme.color)
+                    .fill(theme.primaryColor)
                     .overlay(tappedShadowOverlay)
                     .overlay(tappedLightOverlay)
             }else{
                 shape
-                    .fill(theme.color)
+                    .fill(theme.primaryColor)
                     .shadow(color: theme.untappedShadow.color,
                             radius: theme.untappedShadow.radius,
                             x: theme.untappedShadow.x,
