@@ -14,6 +14,8 @@
 		280123D427BEB710007A8BEC /* NeomorphicBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280123D327BEB710007A8BEC /* NeomorphicBackground.swift */; };
 		28E1B71427C1531E00EDF9D4 /* OperandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E1B71327C1531E00EDF9D4 /* OperandButton.swift */; };
 		28E1B71627C159F800EDF9D4 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E1B71527C159F800EDF9D4 /* AppColors.swift */; };
+		28E1B71927C1847200EDF9D4 /* Operand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E1B71827C1847200EDF9D4 /* Operand.swift */; };
+		28E1B71B27C1858F00EDF9D4 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E1B71A27C1858F00EDF9D4 /* Operator.swift */; };
 		28F5608127BD52E8005824EC /* CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F5608027BD52E8005824EC /* CalculatorApp.swift */; };
 		28F5608327BD52E8005824EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F5608227BD52E8005824EC /* ContentView.swift */; };
 		28F5608527BD52EA005824EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F5608427BD52EA005824EC /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 		280123D327BEB710007A8BEC /* NeomorphicBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeomorphicBackground.swift; sourceTree = "<group>"; };
 		28E1B71327C1531E00EDF9D4 /* OperandButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperandButton.swift; sourceTree = "<group>"; };
 		28E1B71527C159F800EDF9D4 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		28E1B71827C1847200EDF9D4 /* Operand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operand.swift; sourceTree = "<group>"; };
+		28E1B71A27C1858F00EDF9D4 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 		28F5607D27BD52E8005824EC /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F5608027BD52E8005824EC /* CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorApp.swift; sourceTree = "<group>"; };
 		28F5608227BD52E8005824EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -161,6 +165,8 @@
 			children = (
 				28F5609527BD5D1F005824EC /* StyleGuide.swift */,
 				280123CE27BEA859007A8BEC /* Theme.swift */,
+				28E1B71827C1847200EDF9D4 /* Operand.swift */,
+				28E1B71A27C1858F00EDF9D4 /* Operator.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -246,12 +252,14 @@
 			files = (
 				28E1B71427C1531E00EDF9D4 /* OperandButton.swift in Sources */,
 				28E1B71627C159F800EDF9D4 /* AppColors.swift in Sources */,
+				28E1B71B27C1858F00EDF9D4 /* Operator.swift in Sources */,
 				280123D127BEA9D8007A8BEC /* LinearGradient.swift in Sources */,
 				28F5608327BD52E8005824EC /* ContentView.swift in Sources */,
 				28F5609827BD692B005824EC /* Color.swift in Sources */,
 				28F5608127BD52E8005824EC /* CalculatorApp.swift in Sources */,
 				280123D427BEB710007A8BEC /* NeomorphicBackground.swift in Sources */,
 				280123CD27BEA6AC007A8BEC /* NeomorphicButtonStyle.swift in Sources */,
+				28E1B71927C1847200EDF9D4 /* Operand.swift in Sources */,
 				280123CA27BE9B82007A8BEC /* NeomorphicTheme.swift in Sources */,
 				28F5609627BD5D1F005824EC /* StyleGuide.swift in Sources */,
 				280123CF27BEA859007A8BEC /* Theme.swift in Sources */,

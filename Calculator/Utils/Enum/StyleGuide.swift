@@ -8,9 +8,8 @@
 import SwiftUI
 
 enum StyleGuide{
-    
     enum Colors{
-        enum Primary: AppColors {
+        enum Primary:      AppColors{
             case red    = "primary1"
             case light  = "primary2"
             case dark   = "primary3"
@@ -19,7 +18,7 @@ enum StyleGuide{
             case green  = "primary6"
             case blue   = "primary7"
         }
-        enum Secondry: AppColors{
+        enum Secondry:     AppColors{
             case red    = "secondry1"
             case light  = "secondry2"
             case dark   = "secondry3"
@@ -28,7 +27,7 @@ enum StyleGuide{
             case green  = "secondry6"
             case blue   = "secondry7"
         }
-        enum PrimaryText: AppColors{
+        enum PrimaryText:  AppColors{
             case red    = "primaryText1"
             case light  = "primaryText2"
             case dark   = "primaryText3"
@@ -46,7 +45,7 @@ enum StyleGuide{
             case green  = "secondryText6"
             case blue   = "secondryText7"
         }
-        enum DisplayText: AppColors{
+        enum DisplayText:  AppColors{
             case red    = "displayText1"
             case light  = "secondry2"
             case dark   = "displayText3"
@@ -55,7 +54,7 @@ enum StyleGuide{
             case green  = "secondry6"
             case blue   = "secondry7"
         }
-        enum DarkShadow: AppColors{
+        enum DarkShadow:   AppColors{
             case red    = "darkShadow1"
             case light  = "darkShadow2"
             case dark   = "darkShadow3"
@@ -65,8 +64,6 @@ enum StyleGuide{
             case blue   = "darkShadow7"
         }
     }
-    
-    
 }
 
 

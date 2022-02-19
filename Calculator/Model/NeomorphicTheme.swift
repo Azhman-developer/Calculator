@@ -33,8 +33,6 @@ struct NeomorphicTheme{
     
     ///DisplayText Color
     let displayTextColor: Color
-    
-    
 }
 
 struct NeomorphicShadow{
