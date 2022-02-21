@@ -11,12 +11,12 @@ struct NemorphicButtonStyle: ButtonStyle{
     
     //MARK: - Vars
     var theme: NeomorphicTheme
-    var padding: CGFloat
-    
+    var frame: CGSize
+    ///pading = 30
     //MARK: - Body
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .padding(padding)
+            .frame(width: frame.width, height: frame.height)
             .background( NeomorphicBackground(
                         theme: theme,
                         isTapped: configuration.isPressed,

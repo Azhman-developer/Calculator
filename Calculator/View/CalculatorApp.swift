@@ -10,11 +10,11 @@ import SwiftUI
 @main
 struct CalculatorApp: App {
     
-    @State var theme = Color.theme.blue
+    @State var theme = Color.theme.dark
     
     var body: some Scene {
         WindowGroup {
-            ContentView(theme: $theme)
+            HomeView(theme: $theme)
         }
     }
 }
