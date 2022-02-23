@@ -26,24 +26,38 @@ struct Keypad: View {
     //MARK: - MainBody
     var body: some View {
         VStack{
+            ///Rows
             ForEach(buttons, id: \.self){ rows in
                 HStack(spacing: 0){
                     Spacer()
+                    ///Columns
                     ForEach(rows, id: \.self){ item in
-                        CalcButton(currentNumber: $currentNumber, button: item, theme: theme, frame: CGSize(width: 80, height: 80))
+                        
+                        switch item.type{
+                        case .operand:
+                            CalcButton(currentNumber: $currentNumber, associatedValue: item, theme: theme, frame: CGSize(width: 80, height: 80))
+                        default:
+                            if item == .delete || item == .decimal {
+                                CalcButton(currentNumber: $currentNumber, associatedValue: item, theme: theme, frame: CGSize(width: 80, height: 80))
+                            }else{
+                                OperationButton(currentNumber: $currentNumber, associatedValue: item, theme: theme, frame: CGSize(width: 80, height: 80))
+                            }
+                        }
                         Spacer()
                     }
-                    
                 }
             }
-        }.frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(theme.primaryColor)
+        }
+        .padding(.bottom, 25)
+        .background(theme.primaryColor.ignoresSafeArea())
+        
     }
 }
 
-struct KeypadView_Previews: PreviewProvider {
+struct Keypad_Previews: PreviewProvider {
     static var previews: some View {
         Keypad(theme: Theme.dark)
-            
+            .previewLayout(.sizeThatFits)
     }
 }
+

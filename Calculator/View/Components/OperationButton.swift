@@ -1,65 +1,62 @@
 //
-//  CalcButton.swift
+//  OperationButton.swift
 //  Calculator
 //
-//  Created by Amirreza Zarepour on 2/19/22.
+//  Created by Amirreza Zarepour on 2/22/22.
 //
 
 import SwiftUI
 
-struct CalcButton: View {
-    
-    //MARK: - Vars
-    //TODO: - Change to double
+struct OperationButton: View {
+    //MARK: - Var
     @Binding var currentNumber: String
     let associatedValue: Buttons
     let theme: NeomorphicTheme
     let frame: CGSize
     
+    
     //MARK: - MainBody
     var body: some View {
-        if associatedValue == .equal{
+        if associatedValue == .equal {
             equalButton
         }else{
-          calcButton
+            operationButton
         }
     }
 }
 
-struct CalcButton_Previews: PreviewProvider {
+struct OperationButton_Previews: PreviewProvider {
     static var previews: some View {
-        CalcButton(currentNumber: .constant("0"), associatedValue: .equal, theme: Theme.blue, frame: CGSize(width: 60, height: 60))
-            
+        OperationButton(currentNumber: .constant("0"), associatedValue: .equal, theme: Theme.dark, frame: CGSize(width: 60, height: 60))
     }
 }
 
-extension CalcButton{
-    //MARK: - Views
-    private var equalButton: some View{
+extension OperationButton{
+    //MARK: - View
+    private var equalButton:      some View{
         Button(action: {
             
         }){
             Text("\(associatedValue.rawValue)")
                 .font(.system(size: 22, weight: .light, design: .default))
-                .foregroundColor(theme.primaryTextColor)
+                .foregroundColor(theme.secondaryTextColor)
                 .padding()
         }
         .buttonStyle(NemorphicButtonStyle(theme: theme, frame: frame))
     }
-    private var calcButton:  some View{
+    private var operationButton:  some View{
         Button(action: {
             
         }){
-            if associatedValue == .delete{
-                Image(systemName: "gobackward")
+            if associatedValue == .multiplication{
+                Image(systemName: "multiply")
                     .font(.system(size: 22, weight: .light, design: .default))
-                    .foregroundColor(theme.primaryTextColor)
-                    .rotationEffect(Angle(degrees: -45))
+                    .foregroundColor(theme.secondaryTextColor)
                     .padding()
             }else{
                 Text("\(associatedValue.rawValue)")
                     .font(.system(size: 22, weight: .light, design: .default))
-                    .foregroundColor(theme.primaryTextColor)
+                    .foregroundColor(theme.secondaryTextColor)
                     .padding()
             }
         }

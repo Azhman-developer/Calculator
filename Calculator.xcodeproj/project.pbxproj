@@ -13,6 +13,10 @@
 		280123D127BEA9D8007A8BEC /* LinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280123D027BEA9D8007A8BEC /* LinearGradient.swift */; };
 		280123D427BEB710007A8BEC /* NeomorphicBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280123D327BEB710007A8BEC /* NeomorphicBackground.swift */; };
 		280D71A027C2ABB300920878 /* Keypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280D719F27C2ABB300920878 /* Keypad.swift */; };
+		288A17CF27C549050002BE08 /* OperandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288A17CE27C549050002BE08 /* OperandButton.swift */; };
+		288A17D127C549190002BE08 /* OperationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288A17D027C549190002BE08 /* OperationButton.swift */; };
+		288A17D327C54BD10002BE08 /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288A17D227C54BD10002BE08 /* ButtonType.swift */; };
+		288A17D527C555DA0002BE08 /* CustomCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288A17D427C555DA0002BE08 /* CustomCornerRadius.swift */; };
 		28E1B71427C1531E00EDF9D4 /* CalcButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E1B71327C1531E00EDF9D4 /* CalcButton.swift */; };
 		28E1B71627C159F800EDF9D4 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E1B71527C159F800EDF9D4 /* AppColors.swift */; };
 		28E1B71B27C1858F00EDF9D4 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E1B71A27C1858F00EDF9D4 /* Buttons.swift */; };
@@ -31,6 +35,10 @@
 		280123D027BEA9D8007A8BEC /* LinearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient.swift; sourceTree = "<group>"; };
 		280123D327BEB710007A8BEC /* NeomorphicBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeomorphicBackground.swift; sourceTree = "<group>"; };
 		280D719F27C2ABB300920878 /* Keypad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keypad.swift; sourceTree = "<group>"; };
+		288A17CE27C549050002BE08 /* OperandButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperandButton.swift; sourceTree = "<group>"; };
+		288A17D027C549190002BE08 /* OperationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationButton.swift; sourceTree = "<group>"; };
+		288A17D227C54BD10002BE08 /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+		288A17D427C555DA0002BE08 /* CustomCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCornerRadius.swift; sourceTree = "<group>"; };
 		28E1B71327C1531E00EDF9D4 /* CalcButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcButton.swift; sourceTree = "<group>"; };
 		28E1B71527C159F800EDF9D4 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		28E1B71A27C1858F00EDF9D4 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
@@ -67,6 +75,9 @@
 			children = (
 				280123D327BEB710007A8BEC /* NeomorphicBackground.swift */,
 				28E1B71327C1531E00EDF9D4 /* CalcButton.swift */,
+				288A17CE27C549050002BE08 /* OperandButton.swift */,
+				288A17D027C549190002BE08 /* OperationButton.swift */,
+				288A17D427C555DA0002BE08 /* CustomCornerRadius.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -175,6 +186,7 @@
 				28F5609527BD5D1F005824EC /* StyleGuide.swift */,
 				280123CE27BEA859007A8BEC /* Theme.swift */,
 				28E1B71A27C1858F00EDF9D4 /* Buttons.swift */,
+				288A17D227C54BD10002BE08 /* ButtonType.swift */,
 			);
 			path = Enum;
 			sourceTree = "<group>";
@@ -261,10 +273,14 @@
 				28E1B71427C1531E00EDF9D4 /* CalcButton.swift in Sources */,
 				28E1B71627C159F800EDF9D4 /* AppColors.swift in Sources */,
 				28E1B71B27C1858F00EDF9D4 /* Buttons.swift in Sources */,
+				288A17D127C549190002BE08 /* OperationButton.swift in Sources */,
+				288A17CF27C549050002BE08 /* OperandButton.swift in Sources */,
 				280123D127BEA9D8007A8BEC /* LinearGradient.swift in Sources */,
+				288A17D527C555DA0002BE08 /* CustomCornerRadius.swift in Sources */,
 				28F5608327BD52E8005824EC /* HomeView.swift in Sources */,
 				28F5609827BD692B005824EC /* Color.swift in Sources */,
 				28F5608127BD52E8005824EC /* CalculatorApp.swift in Sources */,
+				288A17D327C54BD10002BE08 /* ButtonType.swift in Sources */,
 				280123D427BEB710007A8BEC /* NeomorphicBackground.swift in Sources */,
 				280123CD27BEA6AC007A8BEC /* NeomorphicButtonStyle.swift in Sources */,
 				280123CA27BE9B82007A8BEC /* NeomorphicTheme.swift in Sources */,
@@ -407,6 +423,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -418,7 +435,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -436,6 +453,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -447,7 +465,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -14,8 +14,9 @@ extension Color{
     typealias primaryText  = StyleGuide.Colors.PrimaryText
     typealias secondryText = StyleGuide.Colors.SecondryText
     typealias displayText  = StyleGuide.Colors.DisplayText
-    typealias darkShadoW   = StyleGuide.Colors.DarkShadow
-
+    typealias darkShadow   = StyleGuide.Colors.DarkShadow
+    typealias display = StyleGuide.Colors.Display
+    
     typealias theme        = Theme
 }
 

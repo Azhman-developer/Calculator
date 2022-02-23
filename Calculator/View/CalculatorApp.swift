@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct CalculatorApp: App {
     
-    @State var theme = Color.theme.dark
+    @State var theme = Color.theme.green
     
     var body: some Scene {
         WindowGroup {

@@ -16,14 +16,19 @@ struct HomeView: View {
     var body: some View {
         ZStack{
             
-            theme.primaryColor.ignoresSafeArea()
-            
+            theme.displayColor
             VStack{
                 
+                Spacer()
                 Keypad(theme: theme)
-                CalcButton(currentNumber: $currentNumber, button: .equal, theme: theme, frame: CGSize(width: 80, height: 80))
+                    .cornerRadius(radius: 30, corners: [.topLeft, .topRight])
+                    .shadow(color: .black.opacity(0.03), radius: 10, x: 0, y: -10)
+                    
+                    
+                   
         }
-    }
+    }.ignoresSafeArea()
+            .preferredColorScheme(.dark)
 }
 
 }

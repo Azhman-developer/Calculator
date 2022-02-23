@@ -11,7 +11,7 @@ import SwiftUI
 enum Theme{
     static var red:    NeomorphicTheme{
         let untappedShadow = NeomorphicShadow(
-            color: Color.darkShadoW.red.rawValue.color.opacity(0.4),
+            color: Color.darkShadow.red.rawValue.color.opacity(0.4),
             radius: 1,
             x: 5,
             y: 5)
@@ -29,11 +29,12 @@ enum Theme{
                                secondyColor: Color.secondry.red.rawValue.color,
                                primaryTextColor: Color.primaryText.red.rawValue.color,
                                secondaryTextColor: Color.secondryText.red.rawValue.color,
-                               displayTextColor: Color.displayText.red.rawValue.color)
+                               displayTextColor: Color.displayText.red.rawValue.color,
+                               displayColor: Color.display.red.rawValue.color)
     }
     static var light:  NeomorphicTheme{
         let untappedShadow = NeomorphicShadow(
-            color: Color.darkShadoW.light.rawValue.color.opacity(0.2),
+            color: Color.darkShadow.light.rawValue.color.opacity(0.2),
             radius: 1,
             x: 5,
             y: 5)
@@ -51,11 +52,12 @@ enum Theme{
                                secondyColor: Color.secondry.light.rawValue.color,
                                primaryTextColor: Color.primaryText.light.rawValue.color,
                                secondaryTextColor: Color.secondryText.light.rawValue.color,
-                               displayTextColor: Color.displayText.light.rawValue.color)
+                               displayTextColor: Color.displayText.light.rawValue.color,
+                               displayColor: Color.display.light.rawValue.color)
     }
     static var dark:   NeomorphicTheme{
         let untappedShadow = NeomorphicShadow(
-            color: Color.darkShadoW.dark.rawValue.color.opacity(0.2),
+            color: Color.darkShadow.dark.rawValue.color.opacity(0.2),
             radius: 1,
             x: 5,
             y: 5)
@@ -73,11 +75,12 @@ enum Theme{
                                secondyColor: Color.secondry.dark.rawValue.color,
                                primaryTextColor: Color.primaryText.dark.rawValue.color,
                                secondaryTextColor: Color.secondryText.dark.rawValue.color,
-                               displayTextColor: Color.displayText.dark.rawValue.color)
+                               displayTextColor: Color.displayText.dark.rawValue.color,
+                               displayColor: Color.display.dark.rawValue.color)
     }
     static var pink:   NeomorphicTheme{
         let untappedShadow = NeomorphicShadow(
-            color: Color.darkShadoW.pink.rawValue.color.opacity(0.2),
+            color: Color.darkShadow.pink.rawValue.color.opacity(0.2),
             radius: 1,
             x: 5,
             y: 5)
@@ -95,11 +98,12 @@ enum Theme{
                                secondyColor: Color.secondry.pink.rawValue.color,
                                primaryTextColor: Color.primaryText.pink.rawValue.color,
                                secondaryTextColor: Color.secondryText.pink.rawValue.color,
-                               displayTextColor: Color.displayText.pink.rawValue.color)
+                               displayTextColor: Color.displayText.pink.rawValue.color,
+                               displayColor: Color.display.pink.rawValue.color)
     }
     static var purple: NeomorphicTheme{
         let untappedShadow = NeomorphicShadow(
-            color: Color.darkShadoW.purple.rawValue.color.opacity(0.2),
+            color: Color.darkShadow.purple.rawValue.color.opacity(0.2),
             radius: 1,
             x: 5,
             y: 5)
@@ -117,11 +121,12 @@ enum Theme{
                                secondyColor: Color.secondry.purple.rawValue.color,
                                primaryTextColor: Color.primaryText.purple.rawValue.color,
                                secondaryTextColor: Color.secondryText.purple.rawValue.color,
-                               displayTextColor: Color.displayText.purple.rawValue.color)
+                               displayTextColor: Color.displayText.purple.rawValue.color,
+                               displayColor: Color.display.purple.rawValue.color)
     }
     static var green:  NeomorphicTheme{
         let untappedShadow = NeomorphicShadow(
-            color: Color.darkShadoW.green.rawValue.color.opacity(0.4),
+            color: Color.darkShadow.green.rawValue.color.opacity(0.4),
             radius: 1,
             x: 5,
             y: 5)
@@ -139,11 +144,11 @@ enum Theme{
                                secondyColor: Color.secondry.green.rawValue.color,
                                primaryTextColor: Color.primaryText.green.rawValue.color,
                                secondaryTextColor: Color.secondryText.green.rawValue.color,
-                               displayTextColor: Color.displayText.green.rawValue.color)
+                               displayTextColor: Color.displayText.green.rawValue.color, displayColor: Color.display.green.rawValue.color)
     }
     static var blue:   NeomorphicTheme{
         let untappedShadow = NeomorphicShadow(
-            color: Color.darkShadoW.blue.rawValue.color.opacity(0.2),
+            color: Color.darkShadow.blue.rawValue.color.opacity(0.2),
             radius: 1,
             x: 5,
             y: 5)
@@ -161,6 +166,7 @@ enum Theme{
                                secondyColor: Color.secondry.blue.rawValue.color,
                                primaryTextColor: Color.primaryText.blue.rawValue.color,
                                secondaryTextColor: Color.secondryText.blue.rawValue.color,
-                               displayTextColor: Color.displayText.blue.rawValue.color)
+                               displayTextColor: Color.displayText.blue.rawValue.color,
+                               displayColor: Color.display.blue.rawValue.color)
     }
 }

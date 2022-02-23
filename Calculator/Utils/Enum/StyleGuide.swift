@@ -18,6 +18,17 @@ enum StyleGuide{
             case green  = "primary6"
             case blue   = "primary7"
         }
+        
+        enum Display:     AppColors{
+            case red    = "display1"
+            case light  = "display2"
+            case dark   = "display3"
+            case pink   = "display4"
+            case purple = "display5"
+            case green  = "display6"
+            case blue   = "display7"
+        }
+        
         enum Secondry:     AppColors{
             case red    = "secondry1"
             case light  = "secondry2"

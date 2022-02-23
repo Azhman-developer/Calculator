@@ -37,4 +37,18 @@ enum Buttons: String{
     ///Empty
     case empty = " " 
     
+    ///Type
+    var type: ButtonType{
+        switch self {
+            case .zero, .one, .two, .three, .four, .five, .six, .seven, .eight, .nine:
+                return .operand
+        case .addition, .subtraction, .multiplication, .division, .decimal, .percent:
+            return .operation
+        case .empty:
+            return .empty
+        default:
+            return .action
+        }
+    }
 }
+
