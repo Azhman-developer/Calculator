@@ -110,7 +110,6 @@
 		283A828A27C6866C004CCADC /* README */ = {
 			isa = PBXGroup;
 			children = (
-				283A828C27C68695004CCADC /* Readme.md */,
 				283A828B27C68674004CCADC /* Images */,
 			);
 			path = README;
@@ -141,6 +140,7 @@
 		28F5607427BD52E8005824EC = {
 			isa = PBXGroup;
 			children = (
+				283A828C27C68695004CCADC /* Readme.md */,
 				283A828A27C6866C004CCADC /* README */,
 				28F5607F27BD52E8005824EC /* Calculator */,
 				28F5607E27BD52E8005824EC /* Products */,
